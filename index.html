@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JakenPô</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>JakenPô</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="player">
+                <h2>Jogador</h2>
+                <div class="choices">
+                    <button id="rock" class="choice">&#9994;</button>
+                    <button id="paper" class="choice">&#9995;</button>
+                    <button id="scissors" class="choice">&#128406</button>
+                </div>
+            </div>
+            <div class="computer">
+                <h2>Computador</h2>
+                <div >
+                    <button id="rock1" class="choice">&#9994;</button>
+                    <button id="paper2" class="choice">&#9995;</button>
+                    <button id="scissors3" class="choice">&#128406</button>
+
+                </div>
+            </div>
+        </div>
+        <input type="text" id="result" readonly placeholder="Resultado aparecerá aqui">
+        <img src="./assets/jankenpo.png" alt="JakenPô" class="result-image">
+    </main>
+
+</body>
+<script src="./jakenpo.js"></script>
+</html>
